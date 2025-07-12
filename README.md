@@ -1,13 +1,31 @@
-1. Introduction:
-  This report analyzes a dataset of movies to assess their profitability. The analysis focuses on key metrics such as profit margin, profit/loss, and their distribution across different genres.
+🧭 Introduction:
+  This report explores the profitability of movies released between 2012 and 2016. The analysis covers key metrics such as profit, return on investment (ROI), and distribution across genres, directors, and actors. The goal is to identify trends and insights that  highlight what contributes to box office success.
 
-2. Data Analysis
-   First changed the raw data and used the "Text to column" to turn the data into a more readable state.  Checked for missing values in any columns, especially those crucial for analysis (e.g., Title, Release Date, Genre, Budget, Revenue). Made sure that data types are correct (e.g., dates as dates, numbers as numbers). Looked for inconsistencies in data formats, units, and/or categories (e.g., different date formats, currency symbols). Checked for any outliers.
-   Added two more columns named "Profit Made" and "ROI (Return on Investment)". Calculated PROFIT MADE by subtracting BUDGET from BOX OFFICE REVENUE, then calculated ROI by dividing PROFIT MADE by BUDGET, by calculating either PROFIT MADE or ROI, I discovered that 93 Movies did not make any profit during from BOX OFFICE.
-   Added another tab named "MOVIE SEARCH", there one can search for a movie title by either typing the key words or the whole movie title
-   Added another tab named "PIVOT TABLE" where there is sum summary of all the movie budget and profits made from each year( Quartely too)
-   Added another tab named "GENRE" where I calculated how much money each genre made during the years 2012-2016 and then plotted the graphs of each genre from both genre 1 and 2. The most released genre between the years 2012-2016 was COMEDY.
-   Added another tab named "DIRECTORS", where there is a list of all movie directors from the years 2012-2016, and how many movies they directed during 2012-2016. There was one director that directed most movies in the years 2012-2016 whom was DAVID AYER. There were 445 directors in 2012-2016 in total.
-   Added another tab named "ACTORS" where there a names of all the movie actors from the years 2012-2016 and how many movies they stared in. Upon searching that, it was discovered that there were two actors with the highest movies that they stared in, namely CHRIS HEMSWORTH and LIAM NEESON with a record of 9 movies. There was a total of 1371 actors in the years 2012-2016.
-   Added another tab "MOVIES BY YEAR" where the list of movies are sorted out by their release year
-   
+
+🔍 Data Preparation:
+  1. Converted raw data using "Text to Columns" for better readability.
+  2. Verified and cleaned missing values in key columns: Title, Release Date, Genre, Budget, and Revenue.
+  3. Ensured correct data types: dates formatted as dates, numeric fields as numbers.
+  4. Standardized formats and units (e.g., removed currency symbols, unified date formats).
+  5. Identified and reviewed outliers for relevance and impact.
+
+📊 Metric Calculations
+  1. Added "Profit Made" column: Profit Made = Box Office Revenue - Budget
+  2. Added "Return on Investment (ROI)" column: ROI = Profit Made/Budget
+  3. Found that 93 movies did not make a profit based on box office data.
+
+
+🧵 Interactive Tabs Summary:
+  1. A searchable tab where users can find movies by typing keywords or full titles.
+  2. Provides a year-by-year and quarterly summary of total budgets and profits.
+  3. Calculated total earnings per genre across Genre 1 and Genre 2 fields.
+  4. Plotted graphs to visualize profitability trends.
+  5. Comedy was the most released genre during this period.
+  6. Listed all directors and the number of movies they directed (2012–2016).
+      David Ayer emerged as the most prolific, directing the most movies. Total number of directors: 445
+  7. Listed all actors and their movie counts.
+      Chris Hemsworth and Liam Neeson starred in the most films (9 each). Total number of actors: 1,371
+  8. Organized movies by their release year for chronological browsing.
+
+🧠 Conclusion:
+    This analysis uncovers key profitability drivers in the film industry, showing how genre popularity, star power, and directorial output impact box office performance. The interactive tabs provide accessible ways to explore trends and dig deeper into the data.
